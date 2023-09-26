@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+<body>
+    <h1>Escola Virtual</h1>
+    <h2>Formulário de Pré-Matrícula</h2>
+
+    <fieldset>
+        <legend>Dados pessoais:</legend>
+        <label for="nomeAluno">Nome do aluno:</label>
+        <input type="text" name="nomeAluno" id="nomeAluno"><br><br>
+
+        <label for="nascimento">Nascimento:</label>
+        <input type="date" name="nascimento" id="nascimento" min="1930-01-01"><br><br>
+
+        <label for="nomeMae">Nome da mãe:</label>
+        <input type="text" name="nomeMae" id="nomeMae"><br><br>
+
+        <label for="nomePai">Nome do pai:</label>
+        <input type="text" name="nomePai" id="nomePai"><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone"><br><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Informações de matrícula</legend>
+
+        <label for="serie">Série:</label>
+            <select name="serie" id="serie">
+                <option value="" selected disabled>Selecione uma opção</option>
+                <option value="PE">Pré-escola</option>
+                <option value="1S">Primeira série</option>
+                <option value="1S">Segunda série</option>
+                <option value="1S">Terceira série</option>
+                <option value="1S">Quarta série</option>
+                <option value="1S">Quinta série</option>
+                <option value="1S">Sexta série</option>
+                <option value="1S">Sétima série</option>
+                <option value="1S">Oitava série</option>
+            </select><br><br>
+        <label for="turno">Turno:</label><br>
+        <input type="radio" name="turno" value="Manhã" id="turno"> Manhã
+        <input type="radio" name="turno" value="Tarde" id="turno"> Tarde
+
+        <p>Atividades Extracurriculares:</p>
+
+        <label for="informatica"></label>
+        <input type="checkbox" name="informatica" id="informatica"> Informática
+        <br>
+
+        <label for="musica"></label>
+        <input type="checkbox" name="musica" id="musica"> Música
+        <br>
+
+        <label for="ballet"></label>
+        <input type="checkbox" name="ballet" id="ballet"> Ballet
+        <br>
+        
+        <label for="pintura"></label>
+        <input type="checkbox" name="pintura" id="pintura"> Pintura
+        <br>
+        
+        <label for="judo"></label>
+        <input type="checkbox" name="judo" id="judo"> Judô
+        <br>
+        
+        <label for="futebol"></label>
+        <input type="checkbox" name="futebol" id="futebol"> Futebol
+        <br>
+    </fieldset><br>
+    
+    <button type="submit">Enviar Formulário</button>
+    <button type="reset">Limpar campos do formulário</button>
+</body>
+</html>
